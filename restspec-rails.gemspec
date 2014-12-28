@@ -1,7 +1,8 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'restspec/version'
+
+require 'restspec/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "restspec-rails"
@@ -19,4 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "restspec", "~> 0.1"
+  spec.add_dependency "rails", [">= 4"]
+
+  spec.add_development_dependency "sqlite3"
 end
