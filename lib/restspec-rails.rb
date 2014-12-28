@@ -1,6 +1,7 @@
 require 'rails'
 
 require_relative './generators/restspec/install_generator'
+require_relative './restspec/rails/network_adapter'
 
 module Restspec
   module Rails
