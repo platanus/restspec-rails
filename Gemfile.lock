@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    restspec-rails (0.2.5)
+    restspec-rails (0.2.5.1)
       rails (>= 4)
       restspec (= 0.2.5)
 
