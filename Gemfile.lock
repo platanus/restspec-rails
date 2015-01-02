@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    restspec-rails (0.2.5.1)
+    restspec-rails (0.2.6)
       rails (>= 4)
-      restspec (= 0.2.5)
+      restspec (= 0.2.6)
 
 GEM
   remote: https://rubygems.org/
@@ -103,7 +103,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
-    restspec (0.2.5)
+    restspec (0.2.6)
       activesupport (~> 4.0)
       faker (~> 1.4)
       hashie (~> 3.3)
