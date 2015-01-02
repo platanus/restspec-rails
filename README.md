@@ -46,3 +46,6 @@ config.generators do |g|
 end
 ```
 
+## Versioning
+
+Only the initial version (`0.0.1`) follows Semantic Versioning. The next versions will follow the version of the Restspec gem included.

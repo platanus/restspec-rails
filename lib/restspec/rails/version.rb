@@ -1,5 +1,6 @@
 module Restspec
   module Rails
-    VERSION = '0.0.1'
+    VERSION = RESTSPEC_VERSION
+    RESTSPEC_VERSION = '0.2.1'
   end
 end

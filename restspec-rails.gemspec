@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "restspec", "~> 0.1"
+  spec.add_dependency "restspec", Restspec::Rails::RESTSPEC_VERSION
   spec.add_dependency "rails", [">= 4"]
 
   spec.add_development_dependency "sqlite3"
