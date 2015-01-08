@@ -7,6 +7,7 @@ Integrates [Restspec](https://github.com/platanus/restspec) inside a Rails appli
 Add it to your `Gemfile`:
 
 ```ruby
+gem 'restspec'
 gem 'restspec-rails'
 ```
 
@@ -45,7 +46,3 @@ config.generators do |g|
   g.controller_specs false
 end
 ```
-
-## Versioning
-
-Only the initial version (`0.0.1`) follows Semantic Versioning. The next versions will follow the version of the Restspec gem included.
